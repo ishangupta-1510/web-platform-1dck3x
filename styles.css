@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #263d36;
+  background-image: url("path/to/your/banner-image.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+  color: white;
+}
+
+header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 1em 0;
+}
+
+a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+a:hover {
+  background: #e81c4f;
+  color: white;
+}
+
+.introduction,
+.section-1,
+.section-2,
+.third-section {
+  padding: 2em;
+  margin: 2em 0;
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+}
+
+.section-1 h2,
+.section-2 h2,
+.third-section h2 {
+  color: #333;
+}
+
+pre {
+  background: #eee;
+  padding: 1em;
+  border-left: 2px solid #69c;
+  margin: 1em 0;
+  white-space: pre-wrap;
+}
